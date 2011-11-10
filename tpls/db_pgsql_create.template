@@ -1,0 +1,6 @@
+# Usage: sudo su postgres -c psql < conf/db_pgsql_create.sql
+
+create user ${db_user} with password '${db_pass}';
+create database ${db_name};
+grant all privileges on database ${db_name} to ${db_user};
+\q
