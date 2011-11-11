@@ -1,8 +1,8 @@
 Test application to check search engines performance
 ====================================================
 
-This simple project used to compare Whoosh ans Xapian backends for
-Haystack Search Engine.
+This simple project used to compare Whoosh, Xapian, and Solr backends 
+for Haystack Search Engine.
 
 Dependencies
 ************
