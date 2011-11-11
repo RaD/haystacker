@@ -155,10 +155,11 @@ INSTALLED_APPS = (
 ###
 
 INSTALLED_APPS += ('haystack',)
-HAYSTACK_SEARCH_ENGINE = '${haystack_engine}' # xapian, whoosh
+HAYSTACK_SEARCH_ENGINE = '${haystack_engine}' # solr, xapian, whoosh
 HAYSTACK_SITECONF = 'haystack_init'
 HAYSTACK_XAPIAN_PATH = rel('xapian_index')
 HAYSTACK_WHOOSH_PATH = rel('whoosh_index')
+HAYSTACK_SOLR_URL = 'http://localhost:8983/solr'
 
 ###
 # Logger

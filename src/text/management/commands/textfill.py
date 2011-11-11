@@ -82,7 +82,7 @@ class Command(NoArgsCommand):
 
         max_index = len(words) - 50 - 1
 
-        for i in xrange(500000):
+        for i in xrange(100000):
             index = random.randint(0, max_index)
             line = u' '.join(words[index:index+20])
             models.Text(desc=line).save()
